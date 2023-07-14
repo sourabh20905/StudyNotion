@@ -177,7 +177,7 @@ function Home() {
       </div>
 
       {/* Section 3 */}
-      <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
+      <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white ">
         {/* Become a instructor section */}
         <InstructorSection />
 
@@ -185,7 +185,7 @@ function Home() {
         <h1 className="text-center text-4xl font-semibold mt-8">
           Reviews from other learners
         </h1>
-        <div className="h-[184px] w-[1200px] ">
+        <div className="lg:h-[184px] flex flex-wrap lg:w-[1200px]  sm:w-[900px] sm:h-[98px] content-center ">
         <ReviewSlider />
         </div>
       </div>
