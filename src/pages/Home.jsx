@@ -182,13 +182,17 @@ function Home() {
         <InstructorSection />
 
         {/* Reviws from Other Learner */}
-        <h1 className="text-center text-4xl font-semibold mt-8">
+        <div className="sm:[relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white]">
+        <h1 className="text-center text-4xl font-semibold mt-8 ">
           Reviews from other learners
         </h1>
-        <div className="lg:h-[184px] flex flex-wrap lg:w-[1200px]  sm:w-[900px] sm:h-[98px] content-center ">
+        
+        <div className="lg:h-[184px] flex   lg:w-[1200px]  sm:w-[900px] sm:h-[98px] content-center ">
         <ReviewSlider />
         </div>
-      </div>
+        </div>
+        </div>
+      
 
       {/* Footer */}
       <Footer />
